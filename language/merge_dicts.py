@@ -3,7 +3,9 @@ from operator import itemgetter
 from typing import Dict, List
 
 
-def join_list_of_dicts(l1: List[Dict], l2: List[Dict], dict_key: str = "index") -> List[Dict]:
+def join_list_of_dicts(
+    l1: List[Dict], l2: List[Dict], dict_key: str = "index"
+) -> List[Dict]:
     """
     Given n lists with m dictionaries as their elements, code will return a new list,
     with a joined set of dictionaries.

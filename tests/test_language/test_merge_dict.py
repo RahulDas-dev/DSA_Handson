@@ -1,5 +1,6 @@
 import unittest
-from code.merge_dicts import join_dicts_values_as_list, join_list_of_dicts
+
+from language.merge_dicts import join_dicts_values_as_list, join_list_of_dicts
 
 
 class TestJoinListOfDicts(unittest.TestCase):
